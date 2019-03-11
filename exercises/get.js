@@ -8,18 +8,27 @@
  */
 
 // Provided code :
+
+const sourceObject = {
+  num: 42,
+  bool: true,
+  str: 'some text',
+  log: console.log,
+}
+
+
 function get (entry){
   switch (entry){
-    case entry === num : 
+    case 'num' : 
       return 42;
       break;
-    case bool :
+    case 'bool' :
       return true;
       break;
-    case str:
+    case 'str':
       return 'some text';
       break;
-    case log: 
+    case 'log': 
       return console.log;
       break;
     default:
@@ -28,12 +37,7 @@ function get (entry){
   }
 }
 
-const sourceObject = {
-  num: 42,
-  bool: true,
-  str: 'some text',
-  log: console.log,
-}
+
 
 // Your code :
 

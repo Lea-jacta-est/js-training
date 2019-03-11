@@ -8,6 +8,11 @@
 
 // Your code :
 
+function add (parm1, parm2){
+    return parm1 + parm2;
+
+}
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

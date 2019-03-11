@@ -8,6 +8,26 @@
  */
 
 // Provided code :
+function get (entry){
+  switch (entry){
+    case entry === num : 
+      return 42;
+      break;
+    case bool :
+      return true;
+      break;
+    case str:
+      return 'some text';
+      break;
+    case log: 
+      return console.log;
+      break;
+    default:
+      return undefined;
+
+  }
+}
+
 const sourceObject = {
   num: 42,
   bool: true,

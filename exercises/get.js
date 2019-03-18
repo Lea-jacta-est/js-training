@@ -8,12 +8,36 @@
  */
 
 // Provided code :
+
 const sourceObject = {
   num: 42,
   bool: true,
   str: 'some text',
   log: console.log,
 }
+
+
+function get (entry){
+  switch (entry){
+    case 'num' : 
+      return 42;
+      break;
+    case 'bool' :
+      return true;
+      break;
+    case 'str':
+      return 'some text';
+      break;
+    case 'log': 
+      return console.log;
+      break;
+    default:
+      return undefined;
+
+  }
+}
+
+
 
 // Your code :
 

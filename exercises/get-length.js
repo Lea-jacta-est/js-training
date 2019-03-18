@@ -9,6 +9,11 @@
 
 // Your code :
 
+function getLength (entry){
+    const entryLength = entry.length;
+    return entryLength;
+}
+
 //* Begin of tests
 const assert = require('assert')
 
